@@ -7,6 +7,6 @@ import { Toaster } from 'react-hot-toast'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Toaster position="top-right" reverseOrder={false} />
+    <Toaster position="top-left" reverseOrder={false} />
   </StrictMode>,
 )

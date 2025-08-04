@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API=axios.create({
-    baseURL: "http://localhost:3000/api/books"
+    baseURL: `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}`
 })
 
 export const fetchAllBooks= ()=> API.get('/');
